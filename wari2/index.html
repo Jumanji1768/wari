@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validate login form</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+   <body>
+    <section>
+      <div class = "container">
+        <h1 class="login" style="text-align: center;">For Wari</h1>
+        <form class="login_form" action="wari/home.html" method="post" name="form" onsubmit="return validated()">
+        <div class="font">Username (Our names together) </div>
+        <input autocomplete="off" type="text" name="username">
+        <div id="username_error">Please enter the right name </div>
+        <div class="font font2">Password (The day we meet and the year) </div>
+        <input type="password" name="password" >
+        <div id="Pass_error">You dont remember when we met </div>
+        <button type="submit">HBD</button>
+
+        </form>
+
+       </div>
+
+      <script src="valid.js"></script>
+
+    </section> 
+
+    </body>
+
+</html>
